@@ -58,4 +58,8 @@ class MX_Controller
 	{
 		return CI::$APP->$class;
 	}
+	
+	public function show_403(){
+		echo "Permission access is forbidden.";
+	}
 }
